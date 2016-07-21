@@ -13,11 +13,15 @@
   newCanvas();
 
   $('.pixel').on('click', function(event) {
-      $(this).css('background-color', brush)
-  })
+    $(this).css('background-color', brush);
+  });
 
   $('.paintColor').on('click', function() {
     brush = $(this).css('background-color');
-    $('#currentColor').css({'background-color': brush})
+    $('#currentColor').css({'background-color': brush});
+  });
+  $('input').on('click', function(e) {
+    e.preventDefault();
+    $('.pixel').css({'background-color': 'white'});
   });
 }());
