@@ -1,3 +1,4 @@
+
 body {
   background-color: purple;
 }
@@ -23,61 +24,6 @@ h1  {
   border-radius: 50%;
   width: 20px;
   height: 20px;
-}
-
-.red {
-  background-color: red;
-}
-.pink {
-  background-color: pink;
-}
-.orange {
-  background-color: orange;
-}
-.yellow {
-  background-color: yellow;
-}
-.green {
-  background-color: green;
-}
-.blue {
-  background-color: blue;
-}
-.purple {
-  background-color: purple;
-}
-.black {
-  background-color: black;
-}
-.white {
-  background-color: white;
-}
-.aqua {
-  background-color: aqua;
-}
-.fuchsia {
-  background-color: fuchsia;
-}
-.gray {
-  background-color: gray;
-}
-.lime {
-  background-color: lime;
-}
-.maroon {
-  background-color: maroon;
-}
-.navy {
-  background-color: navy;
-}
-.olive {
-  background-color: olive;
-}
-.silver {
-  background-color: silver;
-}
-.teal {
-  background-color: teal;
 }
 
 #currentColor {
